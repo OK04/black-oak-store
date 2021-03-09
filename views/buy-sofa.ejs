@@ -1,0 +1,1504 @@
+<%- include("partials/header") -%>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Raleway&display=swap" rel="stylesheet">
+
+
+<a class="b2r" href="/shop-sofa" style="margin: 1% 0% 2% 3%; font-size: 15px; color: #00303f;   font-family: Montserrat ,sans-serif; text-decoration:none;";>
+  < Back to Results</a>
+
+
+  <form class="" action="" method="post">
+
+
+      <div class="buy-product border rounded  ">
+      <div class="number">
+        <h5 class="brown-h5">Quantity:</h5>
+      </div>
+      <div class="number-content border rounded border">
+        <input class="parabuy" style="width:50px; text-align:center;" type="text" name="qnty" value="" autocomplete="off" required>
+
+      </div>
+
+      <br>
+      <br>
+      <div class="d-grid gap-2">
+        <button style="width: 85%; color:#010101; " ; class="btnbuy btn-danger parabuy" type="submit"><i style="float:left;" class="fas fa-shopping-cart"></i> Buy Now </button>
+        <button style="width: 85%; color:#010101;" ; class="btnbuy btn-danger parabuy" type="submit"><i style="float:left;" class="fas fa-cart-plus"></i> Add to Cart</button>
+      </div>
+      <p class="parabuy"><i style="margin: 6% 0% 0% 10%" class="fas fa-lock"></i> Secure Transaction</p>
+
+      <hr style="margin:8% 8% 0% 8%;">
+
+      <p class="" style="color:#0f4c75 ; letter-spacing:1px; padding-left: 20px; margin-top: 10%; " >Sold by KINGRON WILLIONSONS</p>
+    </div>
+
+  </form>
+
+
+    <div class="container" id="chair-card">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="brown-chair zoom" src="<%= imgurl %>" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3 id="head"><%= name %></h3>
+          <p id="head">$ <%=cost %></p>
+
+          <% for(var i=0;i<sofa_items.length;i++) %>
+          <% { %>
+
+          <% if(id == "11"  ){ %>
+
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+
+          <% } else if(id == "12"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star "></span>
+          <span class="fa fa-star "></span>
+
+          <% } else if(id == "13"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star "></span>
+
+          <% } else if(id == "14"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+
+          <% } else if(id == "15"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star  "></span>
+          <span class="fa fa-star "></span>
+          <span class="fa fa-star "></span>
+
+          <% } else if(id == "16"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+
+          <% } else if(id == "17"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+
+          <% } else if(id == "18"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star "></span>
+          <span class="fa fa-star "></span>
+
+          <% } else if(id == "19"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star "></span>
+
+          <% } else if(id == "20"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star "></span>
+
+          <% } else if(id == "201"){ %>
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked "></span>
+
+
+          <% } %>
+          <% } %>
+
+
+          <br>
+          <br>
+            <br>
+
+          <p class="parabuy"><%= description %></p>
+
+
+          <div class="font-item" style="margin: 2% 3% 4% 3%">
+            <img src="https://img.icons8.com/cute-clipart/64/000000/flower-delivery.png" />
+            <span class="font-caption">black oak Deliverd</span>
+          </div>
+          <div class="font-item" style="margin: 2% 3% 4% 3%">
+            <img src="https://img.icons8.com/cute-clipart/64/000000/replace.png" />
+            <span class="font-caption">10 days Replacement</span>
+          </div>
+          <div class="font-item" style="margin: 2% 3% 4% 3%">
+            <img src="https://img.icons8.com/dusk/64/000000/guarantee.png" />
+            <span class="font-caption">3 Year <br> Warranty</span>
+          </div>
+          
+          <br>
+          <br>
+
+          <div class="row" style="text-align: justify; margin-left: 2%;" ;>
+            <div class="column">
+              <h5 class="brown-h5" style="color: green;" ;><%= stock %></h5>
+            </div>
+            <div class="column">
+              <p></p>
+            </div>
+          </div>
+          <div class="row" style="text-align: justify; margin-left: 2%;" ;>
+            <div class="column">
+              <h5 class="brown-h5">Dimensions</h5>
+            </div>
+            <div class="column">
+              <p class="parabuy"><%= dimensions %></p>
+            </div>
+          </div>
+          <div class="row" style="text-align: justify; margin-left: 2%;" ;>
+            <div class="column">
+              <h5 class="brown-h5">Weight</h5>
+            </div>
+            <div class="column">
+              <p class="parabuy"> <%=weight %></p>
+            </div>
+          </div>
+          <div class="row" style="text-align: justify; margin-left: 2%;" ;>
+            <div class="column">
+              <h5 class="brown-h5">Material</h5>
+            </div>
+            <div class="column">
+              <p class="parabuy"> <%=material %></p>
+            </div>
+          </div>
+          <div class="row" style="text-align: justify; margin-left: 2%;" ;>
+            <div class="column">
+              <h5 class="brown-h5">Colour</h5>
+            </div>
+            <div class="column">
+              <p class="parabuy"> <%= color %></p>
+            </div>
+          </div>
+          <hr>
+          </hr>
+
+        </div>
+      </div>
+
+      <% for(var i=0;i<sofa_items.length;i++) %>
+      <% { %>
+
+      <% if(id == "11"  ){ %>
+
+      <div class="row" style="text-align: justify;">
+        <div class="col-md-6">
+          <div class="column">
+            <h5 class="brown-h5">Customer reviews</h5>
+            <span class="fa fa-star checked star"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p class="star" style="display:inline-block;">3 out of 5 </p>
+            <br>
+            <p style="margin-left: 6%;">235 global ratings</p>
+
+            <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+              <div class="progress-bar" role="progressbar" style="width: 38%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+
+            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+              <div class="progress-bar" role="progressbar" style="width: 0%; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+            </div>
+
+            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+              <div class="progress-bar" role="progressbar" style="width: 21%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">21%</div>
+            </div>
+
+            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+              <div class="progress-bar" role="progressbar" style="width: 18%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+            </div>
+
+            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+              <div class="progress-bar" role="progressbar" style="width: 23%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">23%</div>
+            </div>
+
+
+            <% } else if(id == "12"){ %>
+
+            <div class="row" style="text-align: justify;">
+              <div class="col-md-6">
+                <div class="column">
+                  <h5 class="brown-h5">Customer reviews</h5>
+                  <span class="fa fa-star checked star"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <p class="star" style="display:inline-block;">3 out of 5 </p>
+                  <br>
+                  <p style="margin-left: 6%;">100 global ratings</p>
+
+                  <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                    <div class="progress-bar" role="progressbar" style="width: 38%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">25%</div>
+                  </div>
+
+                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                    <div class="progress-bar" role="progressbar" style="width: 10%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">5%</div>
+                  </div>
+
+                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                    <div class="progress-bar" role="progressbar" style="width: 21%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">21%</div>
+                  </div>
+
+                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                    <div class="progress-bar" role="progressbar" style="width: 18%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                  </div>
+
+                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                    <div class="progress-bar" role="progressbar" style="width: 23%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">23%</div>
+                  </div>
+
+
+                  <% } else if(id == "13"){ %>
+
+                  <div class="row" style="text-align: justify;">
+                    <div class="col-md-6">
+                      <div class="column">
+                        <h5 class="brown-h5">Customer reviews</h5>
+                        <span class="fa fa-star checked star"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p class="star" style="display:inline-block;">4 out of 5 </p>
+                        <br>
+                        <p style="margin-left: 6%;">210 global ratings</p>
+
+                        <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                        <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                          <div class="progress-bar" role="progressbar" style="width: 25%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+
+                        <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                        <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                          <div class="progress-bar" role="progressbar" style="width: 40%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+
+                        <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                        <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                          <div class="progress-bar" role="progressbar" style="width: 21%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">21%</div>
+                        </div>
+
+                        <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                        <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                          <div class="progress-bar" role="progressbar" style="width: 15%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">15%</div>
+                        </div>
+
+                        <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                        <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                          <div class="progress-bar" role="progressbar" style="width: 13%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">13%</div>
+                        </div>
+
+                        <% } else if(id == "14"){ %>
+
+                        <div class="row" style="text-align: justify;">
+                          <div class="col-md-6">
+                            <div class="column">
+                              <h5 class="brown-h5">Customer reviews</h5>
+                              <span class="fa fa-star checked star"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <p class="star" style="display:inline-block;">5 out of 5 </p>
+                              <br>
+                              <p style="margin-left: 6%;">60 global ratings</p>
+
+                              <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                              <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                <div class="progress-bar" role="progressbar" style="width: 75%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">75%</div>
+                              </div>
+
+                              <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                              <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                <div class="progress-bar" role="progressbar" style="width: 40%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">40%</div>
+                              </div>
+
+                              <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                              <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                <div class="progress-bar" role="progressbar" style="width: 10%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">5%</div>
+                              </div>
+
+                              <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                              <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">0%</div>
+                              </div>
+
+                              <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                              <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">0%</div>
+                              </div>
+
+                              <% } else if(id == "15"){ %>
+
+                              <div class="row" style="text-align: justify;">
+                                <div class="col-md-6">
+                                  <div class="column">
+                                    <h5 class="brown-h5">Customer reviews</h5>
+                                    <span class="fa fa-star checked star"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star "></span>
+                                    <p class="star" style="display:inline-block;">3 out of 5 </p>
+                                    <br>
+                                    <p style="margin-left: 6%;">75 global ratings</p>
+
+                                    <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 15%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">15%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 16%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">16%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 66%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">66%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 5%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 25%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                    </div>
+                                    <% } else if(id == "16"){ %>
+
+                                    <div class="row" style="text-align: justify;">
+                                      <div class="col-md-6">
+                                        <div class="column">
+                                          <h5 class="brown-h5">Customer reviews</h5>
+                                          <span class="fa fa-star checked star"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked "></span>
+                                          <span class="fa fa-star checked "></span>
+                                          <p class="star" style="display:inline-block;">5 out of 5 </p>
+                                          <br>
+                                          <p style="margin-left: 6%;">75 global ratings</p>
+
+                                          <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                          <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                            <div class="progress-bar" role="progressbar" style="width: 65%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                          </div>
+
+                                          <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                          <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                            <div class="progress-bar" role="progressbar" style="width: 46%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">46%</div>
+                                          </div>
+
+                                          <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                          <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                            <div class="progress-bar" role="progressbar" style="width: 30%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                          </div>
+
+                                          <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                          <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                            <div class="progress-bar" role="progressbar" style="width: 5%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                          </div>
+
+                                          <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                          <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                            <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                          </div>
+
+                                          <% } else if(id == "17"){ %>
+                                          <div class="row" style="text-align: justify;">
+                                            <div class="col-md-6">
+                                              <div class="column">
+                                                <h5 class="brown-h5">Customer reviews</h5>
+                                                <span class="fa fa-star checked star"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked "></span>
+                                                <span class="fa fa-star checked "></span>
+                                                <p class="star" style="display:inline-block;">5 out of 5 </p>
+                                                <br>
+                                                <p style="margin-left: 6%;">75 global ratings</p>
+
+                                                <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                                <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                                  <div class="progress-bar" role="progressbar" style="width: 65%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                                </div>
+
+                                                <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                                <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                                  <div class="progress-bar" role="progressbar" style="width: 46%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">46%</div>
+                                                </div>
+
+                                                <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                                <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                  <div class="progress-bar" role="progressbar" style="width: 30%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                                </div>
+
+                                                <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                                <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                  <div class="progress-bar" role="progressbar" style="width: 5%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                                </div>
+
+                                                <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                                <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                  <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                                </div>
+
+                                                <% } else if(id == "18"){ %>
+
+                                                <div class="row" style="text-align: justify;">
+                                                  <div class="col-md-6">
+                                                    <div class="column">
+                                                      <h5 class="brown-h5">Customer reviews</h5>
+                                                      <span class="fa fa-star checked star"></span>
+                                                      <span class="fa fa-star checked"></span>
+                                                      <span class="fa fa-star checked"></span>
+                                                      <span class="fa fa-star "></span>
+                                                      <span class="fa fa-star "></span>
+                                                      <p class="star" style="display:inline-block;">3 out of 5 </p>
+                                                      <br>
+                                                      <p style="margin-left: 6%;">75 global ratings</p>
+
+                                                      <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                                      <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 15%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">15%</div>
+                                                      </div>
+
+                                                      <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                                      <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 16%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">16%</div>
+                                                      </div>
+
+                                                      <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                                      <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 66%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">66%</div>
+                                                      </div>
+
+                                                      <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                                      <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 5%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                                      </div>
+
+                                                      <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                                      <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                        <div class="progress-bar" role="progressbar" style="width: 25%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                                      </div>
+
+
+                                                      <% } else if(id == "19"){ %>
+
+
+                                                      <div class="row" style="text-align: justify;">
+                                                        <div class="col-md-6">
+                                                          <div class="column">
+                                                            <h5 class="brown-h5">Customer reviews</h5>
+                                                            <span class="fa fa-star checked star"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star  checked"></span>
+                                                            <span class="fa fa-star "></span>
+                                                            <p class="star" style="display:inline-block;">4 out of 5 </p>
+                                                            <br>
+                                                            <p style="margin-left: 6%;">75 global ratings</p>
+
+                                                            <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                                            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                                              <div class="progress-bar" role="progressbar" style="width: 25%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                                            </div>
+
+                                                            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                                            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                                              <div class="progress-bar" role="progressbar" style="width: 66%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">67%</div>
+                                                            </div>
+
+                                                            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                                            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                              <div class="progress-bar" role="progressbar" style="width: 17%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">17%</div>
+                                                            </div>
+
+                                                            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                                            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                              <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                                            </div>
+
+                                                            <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                                            <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                              <div class="progress-bar" role="progressbar" style="width: 6%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                                            </div>
+
+                                                            <% } else if(id == "20"){ %>
+
+
+                                                            <div class="row" style="text-align: justify;">
+                                                              <div class="col-md-6">
+                                                                <div class="column">
+                                                                  <h5 class="brown-h5">Customer reviews</h5>
+                                                                  <span class="fa fa-star checked star"></span>
+                                                                  <span class="fa fa-star checked"></span>
+                                                                  <span class="fa fa-star checked"></span>
+                                                                  <span class="fa fa-star  checked"></span>
+                                                                  <span class="fa fa-star "></span>
+                                                                  <p class="star" style="display:inline-block;">4 out of 5 </p>
+                                                                  <br>
+                                                                  <p style="margin-left: 6%;">75 global ratings</p>
+
+                                                                  <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                                                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                                                    <div class="progress-bar" role="progressbar" style="width: 25%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                                                  </div>
+
+                                                                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                                                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                                                    <div class="progress-bar" role="progressbar" style="width: 66%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">67%</div>
+                                                                  </div>
+
+                                                                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                                                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                                    <div class="progress-bar" role="progressbar" style="width: 17%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">17%</div>
+                                                                  </div>
+
+                                                                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                                                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                                    <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                                                  </div>
+
+                                                                  <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                                                  <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                                                    <div class="progress-bar" role="progressbar" style="width: 6%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                                                  </div>
+
+                            <% } else if(id == "201"){ %>
+                              <div class="row" style="text-align: justify;">
+                                <div class="col-md-6">
+                                  <div class="column">
+                                    <h5 class="brown-h5">Customer reviews</h5>
+                                    <span class="fa fa-star checked star"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked "></span>
+                                    <span class="fa fa-star checked "></span>
+                                    <p class="star" style="display:inline-block;">5 out of 5 </p>
+                                    <br>
+                                    <p style="margin-left: 6%;">75 global ratings</p>
+
+                                    <h6 style="position: absolute; margin:3% 0% 0% 5%;">5 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 65%; background-color:#ea2c62; " aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">4 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:#ea2c62; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 46%; background-color:#ea2c62; " aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">46%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">3 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 30%; background-color:#ea2c62; " aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">2 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 5%; background-color:#ea2c62; " aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">2%</div>
+                                    </div>
+
+                                    <h6 style="position: absolute; margin:5.4% 0% 0% 5%;">1 Star</h6>
+                                    <div class="progress" style="width: 70%; margin-left: 32%; height: 25px; margin-top:10%; color:red; ">
+                                      <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#ea2c62; " aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                    </div>
+
+      <% } %>
+  <% } %>
+
+
+
+
+
+
+  <% for(var i=0;i<sofa_items.length;i++) %>
+    <% { %>
+
+
+    <% if(id == "11"  ){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+    <% } else if(id == "12"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+
+    <% } else if(id == "13"){ %>
+
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <% } else if(id == "14"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <% } else if(id == "15"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <% } else if(id == "16"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <% } else if(id == "17"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <% } else if(id == "18"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <% } else if(id == "19"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+
+    <% } else if(id == "20"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+
+
+    <% } else if(id == "201"){ %>
+
+    <hr style="margin-top: 15%; margin-bottom: 15%;">
+    </hr>
+    <h5 class="star" style="margin-top: 5%; margin-bottom:5%; text-align:left ">By feature</h5>
+    <div class="row">
+      <div class="column">
+        <p class="star1">Comfort</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Value for money</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Sturdiness</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Packaging</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Maneuverability</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <div class="column">
+        <p class="star1">Light weight</p>
+      </div>
+      <span class="fa fa-star checked star"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+    </div>
+    </div>
+
+    <% } %>
+    <% } %>
+                            <!-- posts.forEach(function(post){
+      <div class="column">
+        <div class="col-md-6">
+        <div class="row">
+          <i class="fas fa-user fa-2x"> </i>
+          <p>Sharon</p>
+          <div class="column">
+            <span class="fa fa-star checked star"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <h5>Good one under 9k, Detailed review after using a week</h5>
+        </div>
+    <hr></hr>
+    </div>
+    </div>
+
+    }) -->
+
+                            <div class="column">
+  <h4 style="text-align:justify; margin-bottom:9%;">Top reviews </h4>
+  <div class="col-md">
+
+
+    <div class="row">
+      <i style="font-size:24px; margin-right: 5%;" class="fas fa-user"> </i>
+      <p style="font-family: 'Noto Sans', sans-serif;"><%= review_name[0] %></p>
+      <div class="column">
+        <span class="fa fa-star checked star"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+      <h5 style="font-family: 'Raleway', sans-serif;"><%= review_content[0] %></h5>
+    </div>
+
+    <hr>
+    </hr>
+
+    <div class="row">
+      <i style="font-size:24px; margin-right: 5%;" class="fas fa-user"> </i>
+      <p style="font-family: 'Noto Sans', sans-serif;"><%= review_name[1] %></p>
+      <div class="column">
+        <span class="fa fa-star checked star"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <h5 class="parareview"><%= review_content[1] %></h5>
+    </div>
+    <hr>
+    </hr>
+
+    <div class="row">
+      <i style="font-size:24px; margin-right: 5%;" class="fas fa-user"> </i>
+      <p style="font-family: 'Noto Sans', sans-serif;"><%= review_name[2] %></p>
+      <div class="column">
+        <span class="fa fa-star checked star"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star "></span>
+      </div>
+      <h5 class="parareview"><%= review_content[2] %></h5>
+    </div>
+    <hr>
+    </hr>
+
+    <div class="row">
+      <i style="font-size:24px; margin-right: 5%;" class="fas fa-user"> </i>
+      <p style="font-family: 'Noto Sans', sans-serif;"><%= review_name[3] %></p>
+      <div class="column">
+        <span class="fa fa-star checked star"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+      <h5 class="parareview"><%= review_content[3] %></h5>
+    </div>
+    <hr>
+    </hr>
+
+    <div class="row">
+      <i style="font-size:24px; margin-right: 5%;" class="fas fa-user"> </i>
+      <p style="font-family: 'Noto Sans', sans-serif;"><%= review_name[4] %></p>
+      <div class="column">
+        <span class="fa fa-star checked star"></span>
+        <span class="fa fa-star  checked"></span>
+        <span class="fa fa-star  checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+      </div>
+      <h5 class="parareview"><%= review_content[4] %></h5>
+    </div>
+    <hr>
+    </hr>
+
+
+
+
+  </div>
+</div>
+
+</div>
+</div>
+
+<div class="container-fluid last">
+  <p style="text-align: center; color: #160f30" ;>Site by Ojesh Khare. Powered by Human skills.</p>
+  <i class="fab fa-cc-amex fa-2x pay-icon"></i>
+  <i class="fab fa-cc-mastercard fa-2x pay-icon"></i>
+  <i class="fab fa-cc-visa fa-2x pay-icon"></i>
+  <i class="fab fa-google-pay fa-2x pay-icon"></i>
+</div>
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
